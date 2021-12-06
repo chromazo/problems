@@ -1,0 +1,11 @@
+class linkedlist(object):
+    def __init__(self,value):
+        self.value = value
+        self.nextnode = None
+        
+a = linkedlist(1)
+b = linkedlist(2)
+c = linkedlist(3)
+
+a.nextnode = b
+b.nextnode = c
